@@ -36,19 +36,19 @@ const Navbar=({isTopOfPage,selectedPage,setSelectedPage}:Props)=> {
                         page='Home'
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}
-                        />Home
+                        />
                         <Link 
                         page='Benefits'
                         selectedPage={selectedPage}
-                        setSelectedPage={setSelectedPage}/>Benefits
+                        setSelectedPage={setSelectedPage}/>
                         <Link
                         page='Our Classes'
                         selectedPage={selectedPage}
-                        setSelectedPage={setSelectedPage}/>Our Clases
+                        setSelectedPage={setSelectedPage}/>
                         <Link 
                         page='Contact Us'
                         selectedPage={selectedPage}
-                        setSelectedPage={setSelectedPage}/>Contact Us
+                        setSelectedPage={setSelectedPage}/>
                     </div>
                     <div className={`${flexBetween} gap-8`}>
                         <p>Sign In</p>
